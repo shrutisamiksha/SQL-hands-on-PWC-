@@ -1,0 +1,1 @@
+select customer name, concat(substr(customer_name, 1,3), substr(contact_no, 1,3)) as customer_code from customer where email like '%yahoo%' order by customer_address;
