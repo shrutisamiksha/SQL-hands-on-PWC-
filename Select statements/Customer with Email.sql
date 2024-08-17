@@ -1,0 +1,1 @@
+select customer_name,customer_address from customer where email is not null order by customer_address;
