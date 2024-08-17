@@ -1,0 +1,1 @@
+select customer_name, email, contact_no from customer where customer_address!='London' and not email like '%yahoo%' order by customer_name desc;
