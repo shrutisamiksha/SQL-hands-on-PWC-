@@ -1,0 +1,1 @@
+select customer_name,customer_address, nvl(email, contact_no) as contact from customer where customer_address like '__o%' order by customer_name desc;
