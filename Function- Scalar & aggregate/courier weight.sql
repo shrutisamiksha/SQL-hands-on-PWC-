@@ -1,0 +1,1 @@
+select max(weight) as Max_weight, min(weight) as min_weight from courier where to_address= 'Washington';
