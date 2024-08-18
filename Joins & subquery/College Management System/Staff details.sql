@@ -1,0 +1,1 @@
+select staff_name from staff left join subject on staff.staff_id=subject.staff_id where subject.staff_id is null order by staff_name asc;
